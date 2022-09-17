@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+      name="viewport"
+    />
+    <title>SimpleLightbox library</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300,400,700"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="../dist/simple-lightbox.css" /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.css"
+      integrity="sha512-Ne9/ZPNVK3w3pBBX6xE86bNG295dJl4CHttrCp3WmxO+8NQ2Vn8FltNr6UsysA1vm7NE6hfCszbXe3D6FUNFsA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="gallery">
+        <a
+          class="gallery__item"
+          href="https://cdn.pixabay.com/photo/2019/05/14/16/43/himilayan-blue-poppy-4202825_1280.jpg"
+        >
+          <img
+            class="gallery__image"
+            src="https://cdn.pixabay.com/photo/2019/05/14/16/43/himilayan-blue-poppy-4202825__340.jpg"
+            alt="Hokkaido Flower"
+        /></a>
+        <a
+          class="gallery__item"
+          href="https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_1280.jpg"
+        >
+          <img
+            class="gallery__image"
+            src="https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677__340.jpg"
+            alt="Container Haulage Freight"
+        /></a>
+        <a
+          class="gallery__item"
+          href="https://cdn.pixabay.com/photo/2019/05/16/09/47/beach-4206785_1280.jpg"
+        >
+          <img
+            class="gallery__image"
+            src="https://cdn.pixabay.com/photo/2019/05/16/09/47/beach-4206785__340.jpg"
+            alt="Aerial Beach View"
+        /></a>
+        <a
+          class="gallery__item"
+          href="https://cdn.pixabay.com/photo/2016/11/18/16/19/flowers-1835619_1280.jpg"
+        >
+          <img
+            class="gallery__image"
+            src="https://cdn.pixabay.com/photo/2016/11/18/16/19/flowers-1835619__340.jpg"
+            alt="Flower Blooms"
+          />
+        </a>
+        <a
+          class="gallery__item"
+          href="https://cdn.pixabay.com/photo/2018/09/13/10/36/mountains-3674334_1280.jpg"
+        >
+          <img
+            class="gallery__image"
+            src="https://cdn.pixabay.com/photo/2018/09/13/10/36/mountains-3674334__340.jpg"
+            alt="Alpine Mountains"
+        /></a>
+        <a
+          class="gallery__item"
+          href="https://cdn.pixabay.com/photo/2019/05/16/23/04/landscape-4208571_1280.jpg"
+        >
+          <img
+            class="gallery__image"
+            src="https://cdn.pixabay.com/photo/2019/05/16/23/04/landscape-4208571__340.jpg"
+            alt="Mountain Lake Sailing"
+        /></a>
+        <a
+          class="gallery__item"
+          href="https://cdn.pixabay.com/photo/2019/05/17/09/27/the-alps-4209272_1280.jpg"
+        >
+          <img
+            class="gallery__image"
+            src="https://cdn.pixabay.com/photo/2019/05/17/09/27/the-alps-4209272__340.jpg"
+            alt="Alpine Spring Meadows"
+        /></a>
+        <a
+          class="gallery__item"
+          href="https://cdn.pixabay.com/photo/2019/05/16/21/10/landscape-4208255_1280.jpg"
+        >
+          <img
+            class="gallery__image"
+            src="https://cdn.pixabay.com/photo/2019/05/16/21/10/landscape-4208255__340.jpg"
+            alt="Nature Landscape"
+        /></a>
+        <a
+          class="gallery__item"
+          href="https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843_1280.jpg"
+        >
+          <img
+            class="gallery__image"
+            src="https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843__340.jpg"
+            alt="Lighthouse Coast Sea"
+        /></a>
+      </div>
+    </div>
+
+    <!-- <script src="../dist/simple-lightbox.js"></script> -->
+    <script src="./js/02-lightbox.js" type="module"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.js"
+      integrity="sha512-XGiM73niqHXRwBELBEktUKuGXC9yHyaxEsVWvUiCph8yxkaNkGeXJnqs5Ls1RSp4Q+PITMcCy2Dw7HxkzBWQCw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      (function () {
+        var lightbox = new SimpleLightbox(".gallery a", {});
+      })();
+    </script>
+    
+  </body>
+</html>
